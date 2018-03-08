@@ -1,0 +1,62 @@
+/***************************************
+ Menu 2 
+ **************************************/
+ 
+#menu2-bg { 
+	background: 			#fcfcfc; 
+	border-bottom: 		solid 1px #dddddd;
+	margin-bottom: 		0px;
+  	margin:				auto;
+    padding:			20px 5px 5px 20px
+}
+#menu2 {
+  	display:			table;
+  	margin:				auto;
+}
+
+/* All top level links */
+#menu2 > li > a { 
+	padding: 			5px 8px;
+  	
+}
+
+/* all links */
+#menu2 a { 
+	color: 					#333333; 
+}
+
+/* all hovered and active links */
+#menu2 a:hover, 
+#menu2 .active a,
+#menu2 .active a  { 
+	color: 					#990000
+   ; 
+  	border-bottom:			2px dotted #990000
+   
+}
+
+/* 2nd+ levels */
+#menu2  ul {
+	background: 			hsla(36, 100%, 100%, 0.95);
+	border: 					solid 1px #dddddd;
+	padding: 				5px 10px;
+	box-shadow: 			5px 5px 20px -15px #000000;
+}
+
+#menu2 ul a { 
+	padding: 				0;
+}
+
+/* border between list items */
+#menu2 ul li { 
+	border-top: 			solid 1px #eeeeee;
+}
+
+#menu2 ul li:first-child { 
+	border-top: 			none;
+}
+
+#menu2 ul ul {
+	margin-top: 			-39px; /* - line-height - padding */
+}
+
